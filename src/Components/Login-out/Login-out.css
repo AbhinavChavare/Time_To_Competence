@@ -1,23 +1,36 @@
-.log-cont{
-    margin: 4rem 1rem;
-min-height: 20rem;
-    padding:  3rem 1.3rem;
-    border: 1px solid black;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    width: 50%;
-    max-width: 40rem;
-    
+.log-cont {
+  margin: 4rem 1rem;
+  min-height: 20rem;
+  padding: 3rem 1.3rem;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  max-width: 40rem;
+  background-color: rgb(189, 228, 238);
+  border-radius: 2rem;
 }
 
 .toast-message {
-      /* width: 15rem; */
-    font-size: 2rem;
-    /* position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%); */
+  font-size: 2rem;
   scale: 0.85;
+}
+
+.link-color {
+  color: blue;
+  text-decoration: underline;
+}
+
+
+/* AuthLogout Page */
+.page-center {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.page-padd {
+  margin: 3rem;
+
 }

@@ -4,10 +4,10 @@ import "./HeaderNavbar.css"
 
 const HeaderLogo = () => {
     return (
-        <div>
+        <div className='header-sticky'>
             <div className='header-container'>
                 <h1>ABC</h1>
-                <div >
+                <div className='navlinks-sticky' >
                     <NavbarLinks />
                 </div>
             </div>

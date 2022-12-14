@@ -10,12 +10,9 @@ const Login = () => {
         passwordvalue:""
     })
 
-//  const [record,setRecord]=useState([])
-
 const getdata=(ent)=>{
     let name=ent.target.name
     let value=ent.target.value
-    console.log( name ,value)
 setEmailText({...emailText,[name]:value})
 
 }
@@ -63,7 +60,7 @@ const tostlogout=()=>{
     <div className='log-cont' >
       <form onSubmit={(e)=>storeRecord(e)} >
         <input type="email" name='emailValue' required onChange={(ent)=>getdata(ent)} value={emailText.emailValue}
-        autoFocus autoComplete='off'
+        autoFocus autoComplete='off' className
          placeholder="Enteryour email"></input>
         <input type="password" name='passwordvalue' autoComplete='off' value={emailText.passwordvalue}
         onChange={getdata} placeholder="Enter your email"></input>

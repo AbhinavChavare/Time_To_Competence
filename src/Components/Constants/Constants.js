@@ -1,0 +1,5 @@
+export const SET_INPUT="SET_INPUT"
+export const RESET_VALUES="RESET_VALUES"
+export const RESET_VALUES_REGIS="RESET_VALUES_REGIS"
+export const SET_GUEST_LOGIN="SET_GUEST_LOGIN"
+export const SET_DATA="SET_DATA" 

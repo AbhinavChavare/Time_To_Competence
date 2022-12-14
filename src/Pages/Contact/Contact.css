@@ -1,0 +1,22 @@
+.cont-center {
+    display: flex;
+    justify-content: center;
+}
+
+.cont-margin {
+    width: 95%;
+    background-color: #eae7e7;
+}
+
+.cont-data-flex-wrap {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 2rem;
+}
+
+iframe {
+    border-style: none;
+    border: 1px solid black;
+}
