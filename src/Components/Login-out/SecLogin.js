@@ -48,7 +48,7 @@ const SecLogin = () => {
             onChange={(e) => getdata(e)} placeholder="Enter your Password"></input>
           <button type="submit" className="btn-glob">Login</button>
         </form>
-        <h5 className='link-color' onClick={() => guestlog()} >Login as Gust</h5>
+        <h5 className='link-color' onClick={() => guestlog()} >Login as Guest</h5>
         <h5 className='link-color' onClick={() => registerPage()} >Go to Register</h5>
         <ToastContainer />
       </div>

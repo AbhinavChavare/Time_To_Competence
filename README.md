@@ -14,7 +14,7 @@ Time spent for upskilling
 
 - Login -Logout functionality
 - Page cannot access without login
-- Light/dark mode toggle
+- Liogin as guest
 - Live previews
 - Fullscreen mode
 - Mobile responsive
