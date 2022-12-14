@@ -14,7 +14,7 @@ Time spent for upskilling
 
 - Login -Logout functionality
 - Page cannot access without login
-- Liogin as guest
+- Login as guest
 - Live previews
 - Fullscreen mode
 - Mobile responsive
